@@ -1,5 +1,7 @@
 module "github.com/airylinus/blank5"
 
-require "rsc.io/quote" v1.5.1
+require (
+	"golang.org/x/text" v0.3.0
+)
 
-replace "rsc.io/quote" v1.5.1 => "github.com/airylinus/go4it" v0.1.3
+replace "golang.org/x/text" v0.3.0 => "github.com/golang/text" v0.3.0
